@@ -32,6 +32,8 @@ body {
   color: black;
   gap: 20px;
   height: 100px;
+  animation: headerBrilhantes 5s infinite;
+  border: 2px solid var(--corDasLetras);
 }
 .titulo {
   font-size: 1.4rem;
@@ -102,6 +104,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
+  animation: bordarDoFormularioBrilhantes 2s infinite;
 }
 legend {
   font-size: 1.2rem;
@@ -165,9 +168,32 @@ footer {
   color: var(--corDeFundo);
   text-align: center;
   font-weight: bold;
-  height: 100px;
+  animation: headerBrilhantes 5s infinite;
+}
+@keyframes headerBrilhantes {
+  0% {
+    box-shadow: 0 0 10px var(--corDasLetras);
+  }
+  50% {
+    box-shadow: 0 0 20px var(--corDasLetras);
+  }
+  100% {
+    box-shadow: 0 0 10px var(--corDasLetras);
+}
 }
 
+
+@keyframes bordarDoFormularioBrilhantes {
+  0% {
+    border-color: var(--corDoBotao);
+  }
+  50% {
+    border-color: var(--corDoBotaoHover);
+  }
+  100% {
+    border-color: var(--corDoBotao);
+}
+}
 @media (min-width: 768px) {
   #app {
     display: grid;
