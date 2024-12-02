@@ -165,6 +165,7 @@ footer {
   color: var(--corDeFundo);
   text-align: center;
   font-weight: bold;
+  height: 100px;
 }
 
 @media (min-width: 768px) {
