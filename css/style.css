@@ -207,6 +207,7 @@ footer {
   }
   .header {
     grid-area: header;
+    font-size: 1.2rem;
   }
   .header .menu ul {
     display: flex;
@@ -220,8 +221,10 @@ footer {
     display: grid;
     grid-template-areas: "sobre contato";
     grid-template-columns: 1fr 1fr;
+    font-size:  1.2rem;
   }
   footer {
     grid-area: footer;
+    font-size:  1.2rem;
   }
 }
