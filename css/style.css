@@ -82,12 +82,12 @@ body {
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   color: var(--corDasLetrasTerciarias);
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   font-weight: bold;
   width: 100%;
 }
 .sobre h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 10px;
   text-align: center;
 }
