@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Estética Gisleine Pires</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="tituloHeader">
+          <p class="titulo">Stética Gisleine Pires</p>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+
+        <img src="./assets/Gp_White.jpg" class="logo" alt="logo da empresa" />
+      </header>
+      <main class="main">
+        <div class="sobre">
+          <h1>Sobre a Estética Gisleine Pires</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A itaque
+            velit temporibus, ea voluptatibus dolorem laborum sunt vel
+            repellendus, consequuntur totam? Totam nulla rerum pariatur
+            molestiae laboriosam! Accusantium, maxime et!
+          </p>
+        </div>
+        <div class="contato">
+          <form id="formulario">
+            <fieldset>
+              <legend>Contato</legend>
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+              <label for="telefone">Telefone:</label>
+              <input type="tel" id="telefone" name="telefone" required />
+              <label for="assunto">Assunto:</label>
+              <select id="assunto" name="assunto" required>
+                <option value="nenhuma">Selecione o tipo de mensagem!</option>
+                <option value="duvidas">Dúvidas</option>
+                <option value="sugestoes">Sugestões</option>
+                <option value="reclamacoes">Reclamações</option>
+              </select>
+              <label for="mensagem">Mensagem:</label>
+              <textarea id="mensagem" name="mensagem" autocomplete="on" required></textarea>
+              <button type="submit" id="send">Enviar</button>
+            </fieldset>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <p>
+          Desenvolvido por: Bruno Pires Oliveira &copy; 2023. Todos os direitos
+          reservados.
+        </p>
+      </footer>
+    </div>
+    <script text="javascript" src="./js/main.js" type="module"></script>
+  </body>
+</html>
